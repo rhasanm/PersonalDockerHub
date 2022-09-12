@@ -13,7 +13,7 @@ __TECH FILTERE__
 docker build -t angular_cli:latest -f AngularCliDockerfile .
 
 # docker run command
-docker run -it --rm --name "angular_deep_dive" -v /media/rakibul/IF/Frontend/angular_deep_dive/:/usr/src/angular_deep_dive/ -p 4200:4200 angular_cli
+docker run -it --rm --name "angular_deep_dive" -v $(pwd):/usr/src/angular_deep_dive/ -p 4200:4200 angular_cli
 
 # docker start command (if --rm excluded earlier)
 docker start -i angular_deep_dive
