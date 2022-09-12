@@ -1,6 +1,6 @@
 A list of custom/copied Dockerfile &amp; docker-compose.yml files I've composed. This can help anyone looking to learn the docker file structure or immediate use in own projects if found fit in the use case.
 
-__TECH FILTERE__ 
+__TECH WISE FILTER__ 
 
 - [Angular](#angular)
   - [AngularCliDockerfile](#angularclidockerfile)
