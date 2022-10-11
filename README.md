@@ -8,6 +8,9 @@ __TECH WISE FILTER__
 - [Nginx](#nginx)
   - [HTMLServerDockerfile](#htmlserverdockerfile)
 
+- [Database](#database)
+  - [All](#all)
+
 # Angular
 
 ## AngularCliDockerfile
@@ -27,4 +30,11 @@ docker start -i angular_deep_dive
 ```bash
 docker build -f HTMLServerDockerfile -t HTMLServer .
 docker run --rm -p 80:80 HTMLServer
+```
+## All
+```
+docker compose build
+docker compose up
+docker-compose exec mysql /bin/bash
+docker-compose exec mongodb /bin/sh
 ```
