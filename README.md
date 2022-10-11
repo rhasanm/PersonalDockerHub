@@ -38,5 +38,7 @@ docker run --rm -p 80:80 HTMLServer
 docker compose build
 docker compose up
 docker-compose exec mysql /bin/bash
+# for nodejs require('mysql2/node_modules/iconv-lite').encodingExists('foo');
+
 docker-compose exec mongodb /bin/sh
 ```
