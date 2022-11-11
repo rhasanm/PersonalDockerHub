@@ -45,7 +45,7 @@ docker-compose exec mysql /bin/bash
 docker-compose exec mongodb /bin/sh
 ```
 
-# Operating System
+# OperatingSystem
 
 ## Ubuntu SSH
 ```sh
