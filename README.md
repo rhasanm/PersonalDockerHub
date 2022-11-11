@@ -50,5 +50,6 @@ docker-compose exec mongodb /bin/sh
 
 ## UbuntuSSH
 ```sh
-# ubuntu-ssh-dockerfile
+docker build -t ubuntu-ssh -f ubuntu-ssh-dockerfile .
+docker run -p 2022:22 ubuntu-ssh
 ```
