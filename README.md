@@ -11,6 +11,8 @@ __TECH WISE FILTER__
 - [Database](#database)
   - [All](#all)
 
+-[Operation System](os)
+
 # Angular
 
 ## AngularCliDockerfile
@@ -41,4 +43,11 @@ docker-compose exec mysql /bin/bash
 # for nodejs require('mysql2/node_modules/iconv-lite').encodingExists('foo');
 
 docker-compose exec mongodb /bin/sh
+```
+
+# Operating System
+
+## Ubuntu SSH
+```sh
+# ubuntu-ssh-dockerfile
 ```
