@@ -11,7 +11,7 @@ __TECH WISE FILTER__
 - [Database](#database)
   - [All](#all)
 
-- [Operation System](os)
+- [Operation System](#operating sysytem)
 
 # Angular
 
